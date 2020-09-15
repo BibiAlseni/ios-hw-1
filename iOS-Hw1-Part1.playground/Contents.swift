@@ -7,7 +7,7 @@
 
 let name = "Ahmad"
 
-name = "Salem"
+
 
 
 var myWeight = 60
@@ -15,11 +15,11 @@ var FriendWeight = 80.5
 var height = 1.5
 
 
-var weightSum = myWeight + FriendWeight
+var weightSum = "myWeight+FriendWeig"
 
 
 
-var bmi = myWeight * (height * height)
+var bmi = "myWeight*(height*height)"
 
 /*
 - - - -
@@ -38,35 +38,37 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
+var firstName1 = "Bibi"
+var lastName1 = "Ahmad"
+var email1 = "BibiAlseni@yahoo.com"
+var phoneNumber1 = "11223344"
+var age1 = 17
+var country1 = "kuwait"
+var area1 = "Aladan"
+var password = "1234"
 var isKuwaiti = false
 
 //Person 2
-
-
-
-
-
-
-
-
-
+var firstName2 = "Noor"
+var lastName2 = "salah"
+var email2 = "noora@hotmil.com"
+var phoneNumber2 = "009988774"
+var age2 = 20
+var country2 = "kuwait"
+var area2 = "mushrif"
+var password2 = "4567"
+var isKuwaiti2 = false
 
 //Person 3
-
-
-
-
-
-
-
+var firstName3 = "Farah"
+var lastName3 = "Ali"
+var email3 = "farahali@yahoo.com"
+var phoneNumber3 = "55667788"
+var age3 = 18
+var country3 = "kuwait"
+var area3 = "Alrawdha"
+var password3 = "1234"
+var isKuwaiti3 = false
 
 
 /*
@@ -79,6 +81,14 @@ var isKuwaiti = false
  * قارن اذا عمر الاشخاص اصغر من ١٨
  * قارن اذا عمر الاشخاص يساوي  ١٧
  * قارن اذا عمر الاشخاص لا يساوي  ١٧
-
  
  */
+
+let Name = ["Bibi","Noor","Farah"]
+var age = [16 , 20, 18]
+let area = ["Aladan","mushrif","Alrawdha"]
+print ("Name: ", Name[0], Name[2])
+print ("age: ", age[0], age[2])
+print ("area: ", area[0], area[2])
+
+
